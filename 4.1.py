@@ -1,6 +1,7 @@
-def script():
-    time = float(input('выработка в часах: '))
-    rate = float(input('ставка в час: '))
-    bonus = float(input('размер премии: '))
-    return time * rate + bonus
-print(f'зарплата = {script()}')
+from sys import argv
+time, rate, bonus = argv[1:]
+time = (float(time))
+rate = (float(rate))
+bonus = (float(bonus))
+calc = time * rate + bonus
+print('z', calc)
