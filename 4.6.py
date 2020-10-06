@@ -11,6 +11,3 @@ for el in cycle(['a', 'b', 'c']):
         break
     print(el)
     a += 1
-
-
-
